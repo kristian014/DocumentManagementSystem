@@ -1,8 +1,6 @@
-﻿using Microsoft.Owin;
-using Owin;
+﻿using Owin;
 
-[assembly: OwinStartupAttribute(typeof(DocumentManagementSystem.Startup))]
-namespace DocumentManagementSystem
+namespace IdentitySample
 {
     public partial class Startup
     {
